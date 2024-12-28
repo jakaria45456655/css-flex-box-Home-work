@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    background-color: rgba(0, 0, 128, 0.678);
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+/* first row and fist child work start */
+
+.main_div{
+    width: 1300px;
+    height: 900px;
+    border: 5px solid red;
+    margin: 2px auto;
+}
+.main_div .one_child{
+    width: 100%;
+    height: 25%;
+    background-color:#123524 ;
+    display: flex;
+}
+.main_div .two_child{
+    width: 100%;
+    height: 25%;
+    background-color:#3dc583 ;
+}
+.main_div .three_child{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color:black !important;
+}
+.main_div .four_child{
+    width: 100%;
+    height: 25%;
+    background-color:#034d5f ;
+}
+.main_div .one_child .one_child_one{
+    width: 15%;
+    height: 100%;
+    background-color: rgba(35, 35, 131, 0.486);
+    flex-grow: 1;
+}
+.main_div .one_child .one_child_two{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(5, 57, 117);
+    flex-grow: 2;
+}
+.main_div .one_child .one_child_three{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(71, 9, 141);
+    flex-grow: 4;
+}
+.main_div .one_child .one_child_four{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(40, 40, 116);
+    flex-grow: 3;
+}
+.one_child .one_child_two .one_child_two_one{
+    background-color:#85A947;
+    width: 100%;
+    height: 50%; 
+}
+.one_child .one_child_two .one_child_two_two{
+    background-color:#2c331f;
+    width: 100%;
+    height: 50%; 
+    display: flex;
+}
+.one_child .one_child_two .one_child_two_two .one_child_two_two_one{
+    background-color:#046b51;
+    width: 50%;
+    height: 100%; 
+}
+.one_child .one_child_two .one_child_two_two .one_child_two_two_two{
+    background-color:red;
+    width: 50%;
+    height: 100%; 
+}
+.main_div .one_child_four .one_child_four_one{
+    width: 100%;
+    height: 33.33%;
+    background-color:#3859b3 ;
+}
+.main_div .one_child_four .one_child_four_two{
+    width: 100%;
+    height: 33.33%;
+    background-color:#0a1f02 ;
+    display: flex;
+}
+.main_div .one_child_four .one_child_four_three{
+    width: 100%;
+    height: 33.33%;
+    background-color:#6aa30e ;
+}
+.main_div .one_child_four .one_child_four_two .one_child_four_two_one{
+    background-color: rgb(172, 91, 91);
+    width: 10%;
+    height: 100%;
+    flex-grow: 1;
+}
+.main_div .one_child_four .one_child_four_two .one_child_four_two_two{
+    background-color: rgb(102, 37, 37);
+    width: 20%;
+    height: 100%;
+    flex-grow: 3;
+}
+.main_div .one_child_four .one_child_four_two .one_child_four_two_three{
+    background-color: rgb(46, 4, 4);
+    width: 20%;
+    height: 100%;
+    flex-grow: 3;
+}
+/* first row and fist child work end */
+/* socond row and socond child work start */
+.two_child{
+    display: flex;
+}
+.two_child .two_child_one{
+    background-color: #FFC145;
+    width: 10%;
+    height: 100%;
+    flex-grow: 1;
+}
+.two_child .two_child_two{
+    background-color: #5c3f04;
+    width: 20%;
+    height: 100%;
+    flex-grow: 2;
+}
+.two_child .two_child_three{
+    background-color: #473c24;
+    width: 20%;
+    height: 100%;
+    flex-grow: 3;
+}
+.two_child .two_child_two .two_child_two_one{
+    width: 100%;
+    height: 33.33%;
+    background-color: rgb(14, 0, 0);
+}
+.two_child .two_child_two .two_child_two_two{
+    width: 100%;
+    height: 33.33%;
+    background-color: rgb(8, 105, 184);
+    display: flex;
+}
+.two_child .two_child_two .two_child_two_three{
+    width: 100%;
+    height: 33.33%;
+    background-color: rgb(78, 10, 73);
+}
+.two_child .two_child_two .two_child_two_two .two_child_two_tow_one{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(22, 90, 22);
+}
+.two_child .two_child_two .two_child_two_two .two_child_two_tow_two{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(33, 51, 112);
+}
+.two_child .two_child_two .two_child_two_two .two_child_two_tow_two .two_child_tow_tow_two_one{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 0, 0);
+}
+.two_child .two_child_two .two_child_two_two .two_child_two_tow_two .two_child_tow_tow_two_two{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(4, 243, 4);
+    display: flex;
+}
+.two_child .two_child_two .two_child_two_two .two_child_two_tow_two .two_child_tow_tow_two_two .two_child_tow_tow_two_two_one{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.two_child .two_child_two .two_child_two_two .two_child_two_tow_two .two_child_tow_tow_two_two .two_child_tow_tow_two_two_two{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(158, 153, 153);
+}
+
+/* socond row and socond child work end */
+/* three row and three child work start */
+
+.three_child .three_child_one{
+    width: 15%;
+    height: 100%;
+    background-color: #3D5300;
+    flex-grow: 5;
+
+}
+.three_child .three_child_two{
+    width: 20%;
+    height: 100%;
+    background-color: #87b30e;
+    flex-grow: 4;
+
+}
+.three_child .three_child_three{
+    width: 10%;
+    height: 100%;
+    background-color: #80924d;
+    flex-grow: 3;
+
+}
+.three_child .three_child_four{
+    width: 12%;
+    height: 100%;
+    background-color: #1f8e92;
+    flex-grow: 2;
+
+}
+.three_child .three_child_five{
+    width: 10%;
+    height: 100%;
+    background-color: #291a81;
+    flex-grow: 1;
+}
+.three_child .three_child_one .three_child_one_one{
+    width: 100%;
+    height: 33.33%;
+    background-color:#006769 ;
+}
+.three_child .three_child_one .three_child_one_two{
+    width: 100%;
+    height: 33.33%;
+    background-color:#00fa21 ;
+    display: flex;
+}
+.three_child .three_child_one .three_child_one_three{
+    width: 100%;
+    height: 33.33%;
+    background-color:#068d49 ;
+}
+.three_child .three_child_one .three_child_one_two .three_child_one_two_one{
+    width: 33.33%;
+    height: 100%;
+    background-color: blue;
+}
+.three_child .three_child_one .three_child_one_two .three_child_one_two_two{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgb(64, 64, 151);
+    display: flex;
+}
+.three_child .three_child_one .three_child_one_two .three_child_one_two_three{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgb(20, 172, 199);
+}
+.three_child_one_two_one_one{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 2, 2);
+}
+.three_child_one_two_one_two{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+.three_child .three_child_one_two_two .three_child_one_two_two_one{
+    width: 33.33%;
+    height: 1005;
+    background-color: blue;
+}
+.three_child .three_child_one_two_two .three_child_one_two_two_two{
+    width: 33.33%;
+    height: 1005;
+    background-color: rgb(66, 190, 132);
+}
+.three_child .three_child_one_two_two .three_child_one_two_two_three{
+    width: 33.33%;
+    height: 1005;
+    background-color: rgb(141, 63, 165);
+}
+.three_child_one_two_three .three_child_one_two_three_one{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(17, 16, 17);
+}
+.three_child_one_two_three .three_child_one_two_three_two{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(236, 145, 7);
+}
+.three_child_four .three_child_four_one{
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+.three_child_four .three_child_four_two{
+    width: 100%;
+    height: 25%;
+    background-color: gray;
+}
+.three_child_four .three_child_four_three{
+    width: 100%;
+    height: 25%;
+    background-color: green;
+}
+.three_child_four .three_child_four_four{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(20, 20, 20);
+}
+/* three row and three child work end */
